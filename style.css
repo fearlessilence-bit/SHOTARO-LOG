@@ -230,3 +230,35 @@ footer {
   border-bottom-color: #171613;
 }
 
+/* SHOTARO ARCHIVE — Pink, Black, White & Blue */
+
+body {
+  background-color: #FDF5F8;
+  color: #171719;
+}
+
+.schedule-card {
+  background-color: #FFFFFF;
+  border-color: #E8DDE2;
+}
+
+.schedule-date {
+  color: #171719;
+}
+
+.schedule-status {
+  background-color: #DCEEFF;
+  border-color: #DCEEFF;
+  color: #171719;
+}
+
+.schedule-source {
+  color: #171719;
+  border-bottom-color: #D9B7C0;
+}
+
+.schedule-source:hover {
+  color: #66555D;
+  border-bottom-color: #66555D;
+}
+
