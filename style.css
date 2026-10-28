@@ -121,3 +121,94 @@ footer {
     margin-top: 50px;
   }
 }
+/* Schedule cards */
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.schedule-card {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  position: relative;
+  padding: 24px 20px;
+  border: 1px solid rgba(120, 110, 95, 0.22);
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.schedule-date {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 3px;
+}
+
+.date-day {
+  font-family: Georgia, serif;
+  font-size: 42px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.date-month {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #77736d;
+}
+
+.schedule-info {
+  min-width: 0;
+}
+
+.schedule-category {
+  margin: 0 0 10px;
+  font-size: 9px;
+  letter-spacing: 1.8px;
+  color: #81786d;
+}
+
+.schedule-info h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.schedule-meta,
+.schedule-note {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #77736d;
+}
+
+.schedule-status {
+  grid-column: 2;
+  justify-self: start;
+  margin-top: 2px;
+  padding: 5px 8px;
+  border: 1px solid rgba(120, 110, 95, 0.28);
+  font-size: 9px;
+  letter-spacing: 1px;
+  color: #756b5e;
+}
+
+@media (max-width: 420px) {
+  .schedule-card {
+    grid-template-columns: 60px minmax(0, 1fr);
+    gap: 14px;
+    padding: 20px 14px;
+  }
+
+  .date-day {
+    font-size: 36px;
+  }
+
+  .schedule-info h3 {
+    font-size: 16px;
+  }
+
