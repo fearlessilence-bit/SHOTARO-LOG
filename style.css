@@ -262,3 +262,20 @@ body {
   border-bottom-color: #66555D;
 }
 
+/* Final color overrides */
+html body {
+  background-color: #FDF5F8 !important;
+  color: #171719 !important;
+}
+
+html body .schedule-card {
+  background-color: #FFFFFF !important;
+  border-color: #E8DDE2 !important;
+}
+
+html body .schedule-status {
+  background-color: #DCEEFF !important;
+  border-color: #DCEEFF !important;
+  color: #171719 !important;
+}
+
